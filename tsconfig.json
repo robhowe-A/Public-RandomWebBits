@@ -1,0 +1,16 @@
+// Copyright (c) 2023-2026 Robert A. Howell
+{
+  "files": ["src/main.ts"],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowJs": true,
+    "outDir": "dist"
+  },
+  "exclude": [
+    "dist",
+    "src/js"
+  ]
+}
